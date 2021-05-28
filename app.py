@@ -6,7 +6,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 # define the app
 app = Flask(__name__)
-CORS( app, supports_credential=True )
+# CORS( app, supports_credential=True )
 # database credentials
 hostname = "sql5.freesqldatabase.com"
 username = "sql5414485"
